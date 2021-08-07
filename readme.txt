@@ -1,0 +1,1 @@
+There are the projects I did during taking Machine Learning course from Stanford

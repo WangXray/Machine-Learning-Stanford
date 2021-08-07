@@ -18,14 +18,8 @@ for iter = 1:num_iters
     %
 
 
-
-
-
-
-
-
-
-
+    theta=theta - (alpha/m)*((X*theta-y)'*X)';
+   % theta = theta - alpha * (1/m) * (((X*theta) - y)' * X)'; % Vectorized  
 
     % ============================================================
 
